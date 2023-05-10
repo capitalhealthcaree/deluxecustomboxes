@@ -20,9 +20,9 @@ const Department = () => {
 						<div className="col-lg-3 col-sm-6">
 							<Link href="/service-details">
 								<div className="single-services">
-									<img src="/img/home-eight/1.jpeg" alt="Image" />
+									<img src="/img/popular-packging-product/candle-packaging-boxes.jpg" alt="Image" />
 									<div className="services-content">
-										<h3>Dental Implant</h3>
+										<h3>Candle Packaging Boxes</h3>
 									</div>
 								</div>
 							</Link>
@@ -30,9 +30,9 @@ const Department = () => {
 						<div className="col-lg-3 col-sm-6">
 							<Link href="/service-details">
 								<div className="single-services">
-									<img src="/img/home-eight/1.jpeg" alt="Image" />
+									<img src="/img/popular-packging-product/cbd-boxes.jpg" alt="Image" />
 									<div className="services-content">
-										<h3>Dental Implant</h3>
+										<h3>CBD Boxes</h3>
 									</div>
 								</div>
 							</Link>
@@ -41,9 +41,9 @@ const Department = () => {
 						<div className="col-lg-3 col-sm-6">
 							<Link href="/service-details">
 								<div className="single-services">
-									<img src="/img/home-eight/1.jpeg" alt="Image" />
+									<img src="/img/popular-packging-product/cb-display-boxes.jpg" alt="Image" />
 									<div className="services-content">
-										<h3>Dental Implant</h3>
+										<h3>CB Display Boxes</h3>
 									</div>
 								</div>
 							</Link>
@@ -51,9 +51,9 @@ const Department = () => {
 						<div className="col-lg-3 col-sm-6">
 							<Link href="/service-details">
 								<div className="single-services">
-									<img src="/img/home-eight/1.jpeg" alt="Image" />
+									<img src="/img/popular-packging-product/cup-cake-boxes.jpg" alt="Image" />
 									<div className="services-content">
-										<h3>Dental Implant</h3>
+										<h3>Cup Cake Boxes</h3>
 									</div>
 								</div>
 							</Link>
@@ -61,9 +61,9 @@ const Department = () => {
 						<div className="col-lg-3 col-sm-6">
 							<Link href="/service-details">
 								<div className="single-services">
-									<img src="/img/home-eight/1.jpeg" alt="Image" />
+									<img src="/img/popular-packging-product/hemp-boxes.jpg" alt="Image" />
 									<div className="services-content">
-										<h3>Dental Implant</h3>
+										<h3>Hemp Boxes</h3>
 									</div>
 								</div>
 							</Link>
@@ -71,9 +71,9 @@ const Department = () => {
 						<div className="col-lg-3 col-sm-6">
 							<Link href="/service-details">
 								<div className="single-services">
-									<img src="/img/home-eight/1.jpeg" alt="Image" />
+									<img src="/img/popular-packging-product/mailer-boxes.jpg" alt="Image" />
 									<div className="services-content">
-										<h3>Dental Implant</h3>
+										<h3>Mailer Boxes</h3>
 									</div>
 								</div>
 							</Link>
@@ -81,9 +81,9 @@ const Department = () => {
 						<div className="col-lg-3 col-sm-6">
 							<Link href="/service-details">
 								<div className="single-services">
-									<img src="/img/home-eight/1.jpeg" alt="Image" />
+									<img src="/img/popular-packging-product/soap-boxes.jpg" alt="Image" />
 									<div className="services-content">
-										<h3>Dental Implant</h3>
+										<h3>Soap-Boxes</h3>
 									</div>
 								</div>
 							</Link>
@@ -91,9 +91,9 @@ const Department = () => {
 						<div className="col-lg-3 col-sm-6">
 							<Link href="/service-details">
 								<div className="single-services">
-									<img src="/img/home-eight/1.jpeg" alt="Image" />
+									<img src="/img/popular-packging-product/vape-cartride-boxes.jpg" alt="Image" />
 									<div className="services-content">
-										<h3>Dental Implant</h3>
+										<h3>Vape Cartride Boxes</h3>
 									</div>
 								</div>
 							</Link>

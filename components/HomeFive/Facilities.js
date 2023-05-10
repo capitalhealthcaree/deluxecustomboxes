@@ -3,7 +3,7 @@ import React from "react";
 const Facilities = () => {
   return (
     <>
-      <div className="first-facility-emergency pt-100 pb-70">
+      <div className="first-facility-emergency pt-5 pb-5">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-3 col-sm-6">

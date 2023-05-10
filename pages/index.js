@@ -1,11 +1,11 @@
 import React from "react";
 import NavbarFour from "../components/_App/NavbarFour";
-import MainBanner from "../components/HomeEight/MainBanner";
+import MainBanner from "../components/HomeFive/MainBanner";
 import Facilities from "../components/HomeFive/Facilities";
 import AboutUs from "../components/HomeEight/AboutUs";
 import Department from "../components/HomeEight/Department";
 import VirusSymptoms from "../components/HomeTwo/VirusSymptoms";
-import OurServices from "../components/HomeEight/OurServices";
+import SearchForm from "../components/HomeFive/SearchForm";
 import DoctorsStyleFour from "../components/Common/DoctorsStyleFour";
 import HowItWorks from "../components/HomeThree/HowItWorks";
 import Faqs from "../components/Common/Faqs";
@@ -19,8 +19,9 @@ const Index8 = () => {
 	return (
 		<>
 			<NavbarFour />
-
 			<MainBanner />
+
+			{/* <SearchForm /> */}
 
 			<Facilities />
 
@@ -43,7 +44,7 @@ const Index8 = () => {
 			<HowItWorks />
 
 			<DoctorsStyleFour />
-      
+
 			<VirusSymptoms />
 
 			<Faqs />
