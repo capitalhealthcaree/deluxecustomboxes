@@ -430,7 +430,8 @@ const NavbarFour = () => {
 														<Link
 															href="/stickers-and-labels/"
 															className={`nav-link ${
-																currentPath == "/stickers-and-labels/" && "active"
+																currentPath == "/stickers-and-labels/" &&
+																"active"
 															}`}
 														>
 															Stickers-and Labels
@@ -520,7 +521,7 @@ const NavbarFour = () => {
 									<div className="others-option">
 										<div className="subscribe">
 											<Link href="/contact" className="default-btn">
-												Get A Quote
+												Request For Quote
 											</Link>
 										</div>
 									</div>

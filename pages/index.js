@@ -47,7 +47,7 @@ const Index8 = () => {
 
 			<DoctorsStyleFour />
 
-			{/* <VirusSymptoms /> */}
+			<VirusSymptoms />
 
 			<Faqs />
 
