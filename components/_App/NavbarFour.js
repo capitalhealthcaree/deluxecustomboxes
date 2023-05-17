@@ -180,9 +180,10 @@ const NavbarFour = () => {
 												<ul className="dropdown-menu">
 													<li className="nav-item">
 														<Link
-															href="/pricing/"
+															href="/custom-retail-boxes"
 															className={`nav-link ${
-																currentPath == "/pricing/" && "active"
+																currentPath == "/custom-retail-boxes" &&
+																"active"
 															}`}
 														>
 															Custom Retail Boxes
@@ -191,9 +192,9 @@ const NavbarFour = () => {
 
 													<li className="nav-item">
 														<Link
-															href="/testimonials/"
+															href="/custom-food-boxes"
 															className={`nav-link ${
-																currentPath == "/testimonials/" && "active"
+																currentPath == "/custom-food-boxes" && "active"
 															}`}
 														>
 															Custom Food Boxes
@@ -202,9 +203,10 @@ const NavbarFour = () => {
 
 													<li className="nav-item">
 														<Link
-															href="/doctors/"
+															href="/custom-cosmetics-boxes"
 															className={`nav-link ${
-																currentPath == "/doctors/" && "active"
+																currentPath == "/custom-cosmetics-boxes" &&
+																"active"
 															}`}
 														>
 															Custom Cosmetics Boxes
@@ -213,9 +215,10 @@ const NavbarFour = () => {
 
 													<li className="nav-item">
 														<Link
-															href="/appointment/"
+															href="/custom-bakery-boxes"
 															className={`nav-link ${
-																currentPath == "/appointment/" && "active"
+																currentPath == "/custom-bakery-boxes" &&
+																"active"
 															}`}
 														>
 															Custom Bakery Boxes
@@ -224,9 +227,9 @@ const NavbarFour = () => {
 
 													<li className="nav-item">
 														<Link
-															href="/faq/"
+															href="/custom-vape-boxes"
 															className={`nav-link ${
-																currentPath == "/faq/" && "active"
+																currentPath == "/custom-vape-boxes" && "active"
 															}`}
 														>
 															Custom Vape Boxes
@@ -234,9 +237,9 @@ const NavbarFour = () => {
 													</li>
 													<li className="nav-item">
 														<Link
-															href="/faq/"
+															href="/custom-cbd-boxes"
 															className={`nav-link ${
-																currentPath == "/faq/" && "active"
+																currentPath == "/custom-cbd-boxes" && "active"
 															}`}
 														>
 															Custom CBD Boxes
@@ -244,9 +247,10 @@ const NavbarFour = () => {
 													</li>
 													<li className="nav-item">
 														<Link
-															href="/faq/"
+															href="/custom-apparel-boxes"
 															className={`nav-link ${
-																currentPath == "/faq/" && "active"
+																currentPath == "/custom-apparel-boxes" &&
+																"active"
 															}`}
 														>
 															Custom Apparel Boxes
@@ -254,9 +258,9 @@ const NavbarFour = () => {
 													</li>
 													<li className="nav-item">
 														<Link
-															href="/faq/"
+															href="/custom-gift-boxes"
 															className={`nav-link ${
-																currentPath == "/faq/" && "active"
+																currentPath == "/custom-gift-boxes" && "active"
 															}`}
 														>
 															Custom Gift Boxes
@@ -265,18 +269,22 @@ const NavbarFour = () => {
 
 													<li className="nav-item">
 														<Link
-															href="#"
-															onClick={(e) => e.preventDefault()}
-															className="nav-link"
+															href="/custom-stationery-boxes"
+															className={`nav-link ${
+																currentPath == "/custom-stationery-boxes" &&
+																"active"
+															}`}
 														>
 															Custom Stationery Boxes
 														</Link>
 													</li>
 													<li className="nav-item">
 														<Link
-															href="#"
-															onClick={(e) => e.preventDefault()}
-															className="nav-link"
+															href="/custom-health-boxes"
+															className={`nav-link ${
+																currentPath == "/custom-health-boxes" &&
+																"active"
+															}`}
 														>
 															Custom Health Boxes
 														</Link>
