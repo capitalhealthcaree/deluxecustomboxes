@@ -3,6 +3,7 @@ import NavbarFour from "../components/_App/NavbarFour";
 import MainBanner from "../components/HomeFive/MainBanner";
 import Facilities from "../components/HomeFive/Facilities";
 import AboutUs from "../components/HomeEight/AboutUs";
+import PopularProducts from "../components/PopularProducts";
 import Department from "../components/HomeEight/Department";
 import VirusSymptoms from "../components/HomeTwo/VirusSymptoms";
 import SearchForm from "../components/HomeFive/SearchForm";
@@ -26,8 +27,9 @@ const Index8 = () => {
 			<Facilities />
 
 			<AboutUs />
+			<PopularProducts />
 
-			<Department />
+			{/* <Department /> */}
 
 			{/* <FunFactStyleThree /> */}
 
@@ -45,7 +47,7 @@ const Index8 = () => {
 
 			<DoctorsStyleFour />
 
-			<VirusSymptoms />
+			{/* <VirusSymptoms /> */}
 
 			<Faqs />
 
