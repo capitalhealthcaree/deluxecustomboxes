@@ -4,29 +4,29 @@ import GoTop from "./GoTop";
 import Preloader from "./Preloader";
 
 const Layout = ({ children }) => {
-  // Preloader
-  const [loader, setLoader] = React.useState(true);
-  React.useEffect(() => {
-    setTimeout(() => setLoader(false), 1500);
-  }, []);
+	// Preloader
+	const [loader, setLoader] = React.useState(true);
+	React.useEffect(() => {
+		setTimeout(() => setLoader(false), 500);
+	}, []);
 
-  return (
-    <>
-      <Head>
-        <title>Corf - Doctor Medical Health React Next Template</title>
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
-      </Head>
+	return (
+		<>
+			<Head>
+				<title>Deluxe Custom Boxes</title>
+				<meta
+					name="viewport"
+					content="width=device-width, initial-scale=1, shrink-to-fit=no"
+				/>
+			</Head>
 
-      {children}
+			{children}
 
-      {loader ? <Preloader /> : null}
+			{loader ? <Preloader /> : null}
 
-      <GoTop scrollStepInPx="100" delayInMs="10.50" />
-    </>
-  );
+			<GoTop scrollStepInPx="100" delayInMs="10.50" />
+		</>
+	);
 };
 
 export default Layout;
