@@ -5,7 +5,7 @@ import FeaturedService from "../components/HomeSeven/FeaturedService";
 import AboutUs from "../components/HomeSeven/AboutUs";
 import FunFact from "../components/HomeSeven/FunFact";
 import OurServices from "../components/HomeSeven/OurServices";
-import DoctorsStyleFour from "../components/Common/DoctorsStyleFour";
+// import DoctorsStyleFour from "../components/Common/DoctorsStyleFour";
 import Faqs from "../components/Common/Faqs";
 import AppointmentForm from "../components/HomeSeven/AppointmentForm";
 import TestimonialStyleOne from "../components/Common/TestimonialStyleOne";
@@ -28,7 +28,7 @@ const Index7 = () => {
 
       <OurServices />
 
-      <DoctorsStyleFour />
+      {/* <DoctorsStyleFour /> */}
 
       <Faqs />
 
