@@ -1,29 +1,29 @@
 import React from "react";
 const data = [
 	{
-		heading: "Candle Packaging Boxes",
-		imageSrc: "/img/popular-packging-product/candle-packaging-boxes.jpg",
-		alt: "Candle Packaging Boxes",
+		heading: "Pink Donut Boxes",
+		imageSrc: "/img/popular-packging-product/pink-donut-boxes.jpg",
+		alt: "Pink Donut Boxes",
 	},
 	{
-		heading: "CBD Boxes",
-		imageSrc: "/img/popular-packging-product/cbd-boxes.jpg",
-		alt: "CBD Boxes",
+		heading: "Macaron Boxes",
+		imageSrc: "/img/popular-packging-product/macaron-boxes.jpg",
+		alt: "Macaron Boxes",
 	},
 	{
-		heading: "CB Display Boxes",
-		imageSrc: "/img/popular-packging-product/cb-display-boxes.jpg",
-		alt: "CB Display Boxes",
+		heading: "Custom Popcorn Boxes",
+		imageSrc: "/img/popular-packging-product/custom-popcorn-boxes.jpg",
+		alt: "Custom Popcorn Boxes",
 	},
 	{
-		heading: "Cup Cake Boxes",
-		imageSrc: "/img/popular-packging-product/cup-cake-boxes.jpg",
-		alt: "Cup Cake Boxes",
+		heading: "CBD Hemp Oil Boxes",
+		imageSrc: "/img/popular-packging-product/cbd-hemp-oil-boxes.jpg",
+		alt: "CBD Hemp Oil Boxes",
 	},
 	{
-		heading: "Hemp Boxes",
-		imageSrc: "/img/popular-packging-product/hemp-boxes.jpg",
-		alt: "Hemp Boxes",
+		heading: "Bath Packaging Boxes",
+		imageSrc: "/img/popular-packging-product/Bath-Packaging-Box.jpg",
+		alt: "Bath Packaging Boxes",
 	},
 	{
 		heading: "Mailer Boxes",
@@ -36,9 +36,9 @@ const data = [
 		alt: "Soap Boxes",
 	},
 	{
-		heading: "Vape Cartride Boxes",
-		imageSrc: "/img/popular-packging-product/vape-cartride-boxes.jpg",
-		alt: "Vape Cartride Boxes",
+		heading: "Vape Boxes",
+		imageSrc: "/img/popular-packging-product/vape-boxes.jpg",
+		alt: "Vape Boxes",
 	},
 ];
 const DoctorsStyleFour = () => {

@@ -1,60 +1,51 @@
 import React from "react";
-
-const DoctorsStyleFour = () => {
+const data = [
+	{
+		heading: "Cardboard",
+		imageSrc: "/img/StockTypeAndThickness/Cardboard.jpg",
+		alt: "Cardboard",
+	},
+	{
+		heading: "Corrugated",
+		imageSrc: "/img/StockTypeAndThickness/Corrugated.jpg",
+		alt: "Corrugated",
+	},
+	{
+		heading: "Kraft",
+		imageSrc: "/img/StockTypeAndThickness/kraft.jpg",
+		alt: "Kraft",
+	},
+	{
+		heading: "Rigid",
+		imageSrc: "/img/StockTypeAndThickness/rigid.jpg",
+		alt: "Rigid",
+	},
+];
+const FinishingAssortment = () => {
 	return (
 		<>
 			<div className="doctors-area-two seven pt-5 pb-4">
 				<div className="container">
 					<div className="mb-4">
-						<h2>Finishing Assortment</h2>
+						<h2>Stock Type & Thickness</h2>
 					</div>
 
 					<div className="row justify-content-center">
-						<div className="col-lg-3 col-sm-6">
-							<div className="single-doctors-two">
-								<div className="doctor-img">
-									<img src="/img/home-eight/2.jpg" alt="Image" />
+						{data.map((item, i) => {
+							return (
+								<div className="col-lg-3 col-sm-6" key={i}>
+									<div className="single-doctors-two">
+										<div className="doctor-img">
+											<img src={item.imageSrc} alt={item.alt} />
 
-									<div className="doctors-content">
-										<h3>Cardboard</h3>
+											<div className="doctors-content">
+												<h3>{item.heading}</h3>
+											</div>
+										</div>
 									</div>
 								</div>
-							</div>
-						</div>
-
-						<div className="col-lg-3 col-sm-6">
-							<div className="single-doctors-two">
-								<div className="doctor-img">
-									<img src="/img/home-eight/2.jpg" alt="Image" />
-
-									<div className="doctors-content">
-										<h3>Cardboard</h3>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div className="col-lg-3 col-sm-6">
-							<div className="single-doctors-two">
-								<div className="doctor-img">
-									<img src="/img/home-eight/2.jpg" alt="Image" />
-
-									<div className="doctors-content">
-										<h3>Cardboard</h3>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div className="col-lg-3 col-sm-6">
-							<div className="single-doctors-two">
-								<div className="doctor-img">
-									<img src="/img/home-eight/2.jpg" alt="Image" />
-
-									<div className="doctors-content">
-										<h3>Cardboard</h3>
-									</div>
-								</div>
-							</div>
-						</div>
+							);
+						})}
 					</div>
 				</div>
 			</div>
@@ -127,4 +118,4 @@ const DoctorsStyleFour = () => {
 	);
 };
 
-export default DoctorsStyleFour;
+export default FinishingAssortment;

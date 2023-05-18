@@ -7,7 +7,7 @@ import PopularProducts from "../components/PopularProducts";
 import Department from "../components/HomeEight/Department";
 import VirusSymptoms from "../components/HomeTwo/VirusSymptoms";
 import SearchForm from "../components/HomeFive/SearchForm";
-import DoctorsStyleFour from "../components/Common/DoctorsStyleFour";
+import FinishingAssortment from "../components/Common/FinishingAssortment";
 import HowItWorks from "../components/HomeThree/HowItWorks";
 import Faqs from "../components/Common/Faqs";
 import AppointmentForm from "../components/HomeEight/AppointmentForm";
@@ -45,7 +45,7 @@ const Index8 = () => {
 
 			<HowItWorks />
 
-			<DoctorsStyleFour />
+			<FinishingAssortment />
 
 			<VirusSymptoms />
 
