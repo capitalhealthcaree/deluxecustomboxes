@@ -4,60 +4,39 @@ import MainBanner from "../components/HomeFive/MainBanner";
 import Facilities from "../components/HomeFive/Facilities";
 import AboutUs from "../components/HomeEight/AboutUs";
 import PopularProducts from "../components/PopularProducts";
-import Department from "../components/HomeEight/Department";
-import VirusSymptoms from "../components/HomeTwo/VirusSymptoms";
-import SearchForm from "../components/HomeFive/SearchForm";
 import FinishingAssortment from "../components/Common/FinishingAssortment";
 import HowItWorks from "../components/HomeThree/HowItWorks";
 import Faqs from "../components/Common/Faqs";
-import AppointmentForm from "../components/HomeEight/AppointmentForm";
-import TestimonialStyleOne from "../components/Common/TestimonialStyleOne";
 import NewsStyleTwo from "../components/Common/NewsStyleTwo";
-import FunFactStyleThree from "../components/Common/FunFactStyleThree";
+import PackagingProcedure from "../components/Common/PackagingProcedure";
 import Footer from "../components/_App/Footer";
 // #002868 , #BF0A30
 const Index8 = () => {
-	return (
-		<>
-			<NavbarFour />
-			<MainBanner />
+  return (
+    <>
+      <NavbarFour />
 
-			{/* <SearchForm /> */}
+      <MainBanner />
 
-			<Facilities />
+      <Facilities />
 
-			<AboutUs />
-			<PopularProducts />
+      <AboutUs />
 
-			{/* <Department /> */}
+      <PopularProducts />
 
-			{/* <FunFactStyleThree /> */}
+      <PackagingProcedure />
 
-			{/* <OurServices /> */}
+      <HowItWorks />
 
-			{/* <div className="bg-color">
-        <DoctorsStyleFour />
-      </div> */}
+      <FinishingAssortment />
 
-			{/* <Pricing /> */}
+      <Faqs />
 
-			<FunFactStyleThree />
+      <NewsStyleTwo />
 
-			<HowItWorks />
-
-			<FinishingAssortment />
-
-			<VirusSymptoms />
-
-			<Faqs />
-
-			<NewsStyleTwo />
-
-			{/* <Subscribe /> */}
-
-			<Footer />
-		</>
-	);
+      <Footer />
+    </>
+  );
 };
 
 export default Index8;

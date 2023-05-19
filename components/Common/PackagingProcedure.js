@@ -1,6 +1,6 @@
 import React from "react";
 
-const FunFactStyleOne = () => {
+const PackagingProcedure = () => {
   return (
     <>
       <div className="counter-area pb-5">
@@ -15,12 +15,10 @@ const FunFactStyleOne = () => {
               data-aos-delay="100"
               data-aos-duration="1200"
             >
-              {/* <div className="single-counter"> */}
               <img
                 src="/img/procedure/pricing.webp"
                 alt="Description of the image"
               />
-              {/* </div> */}
             </div>
             <div
               className="col-lg-3 col-sm-6"
@@ -28,12 +26,10 @@ const FunFactStyleOne = () => {
               data-aos-delay="100"
               data-aos-duration="1200"
             >
-              {/* <div className="single-counter"> */}
               <img
                 src="/img/procedure/box-design.webp"
                 alt="Description of the image"
               />
-              {/* </div> */}
             </div>
             <div
               className="col-lg-3 col-sm-6"
@@ -41,12 +37,10 @@ const FunFactStyleOne = () => {
               data-aos-delay="100"
               data-aos-duration="1200"
             >
-              {/* <div className="single-counter"> */}
               <img
                 src="/img/procedure/packaging.webp"
                 alt="Description of the image"
               />
-              {/* </div> */}
             </div>
             <div
               className="col-lg-3 col-sm-6"
@@ -54,12 +48,10 @@ const FunFactStyleOne = () => {
               data-aos-delay="100"
               data-aos-duration="1200"
             >
-              {/* <div className="single-counter"> */}
               <img
                 src="/img/procedure/shipment.webp"
                 alt="Description of the image"
               />
-              {/* </div> */}
             </div>
           </div>
         </div>
@@ -77,4 +69,4 @@ const FunFactStyleOne = () => {
   );
 };
 
-export default FunFactStyleOne;
+export default PackagingProcedure;

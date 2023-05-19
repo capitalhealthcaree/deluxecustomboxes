@@ -48,7 +48,7 @@ const HowItWorks = () => {
 	};
 	return (
 		<>
-			<div className="how-its-work ptb-100">
+			<div className="how-its-work ptb-100"  style={{backgroundColor:"#F1F9FD"}}>
 				<div className="container">
 					<div className="section-title">
 						<h2>Request For Quote</h2>

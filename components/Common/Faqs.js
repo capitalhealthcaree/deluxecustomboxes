@@ -23,23 +23,19 @@ const Faqs = () => {
           </div>
 
           <div className="row align-items-center">
-            <div className="col-lg-6">
-              <div className="faq-img">
-                <img src="/img/faq-img.png" alt="Image" />
-              </div>
-            </div>
-
-            <div className="col-lg-6">
+            <div className="col-lg-12">
               <div className="faq-accordion">
                 <Accordion allowZeroExpanded preExpanded={["a"]}>
                   <AccordionItem uuid="a">
                     <AccordionItemHeading>
-                      <AccordionItemButton>
+                      <AccordionItemButton
+                        style={{ backgroundColor: "#001430", color: "white" }}
+                      >
                         <span>What is coronavirus & COVID-19?</span>
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
-                      <p>
+                      <p style={{ fontWeight: "bold", color: "#001430" }}>
                         Lorem, ipsum dolor sit amet How do you Startup?
                         consectetur adipisicing elit. Accusamus ipsa error,
                         excepturi, obcaecati aliquid veniam blanditiis quas
@@ -52,12 +48,14 @@ const Faqs = () => {
 
                   <AccordionItem uuid="b">
                     <AccordionItemHeading>
-                      <AccordionItemButton>
+                      <AccordionItemButton
+                        style={{ backgroundColor: "#001430", color: "white" }}
+                      >
                         <span>What are the symptoms of COVID-19?</span>
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
-                      <p>
+                      <p style={{ fontWeight: "bold", color: "#001430" }}>
                         Lorem, ipsum dolor sit amet How do you Startup?
                         consectetur adipisicing elit. Accusamus ipsa error,
                         excepturi, obcaecati aliquid veniam blanditiis quas
@@ -70,7 +68,9 @@ const Faqs = () => {
 
                   <AccordionItem uuid="c">
                     <AccordionItemHeading>
-                      <AccordionItemButton>
+                      <AccordionItemButton
+                        style={{ backgroundColor: "#001430", color: "white" }}
+                      >
                         <span>
                           What can I do to prevent myself from coronavirus and
                           others?
@@ -78,7 +78,7 @@ const Faqs = () => {
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
-                      <p>
+                      <p style={{ fontWeight: "bold", color: "#001430" }}>
                         Lorem, ipsum dolor sit amet How do you Startup?
                         consectetur adipisicing elit. Accusamus ipsa error,
                         excepturi, obcaecati aliquid veniam blanditiis quas
@@ -91,12 +91,14 @@ const Faqs = () => {
 
                   <AccordionItem uuid="d">
                     <AccordionItemHeading>
-                      <AccordionItemButton>
+                      <AccordionItemButton
+                        style={{ backgroundColor: "#001430", color: "white" }}
+                      >
                         <span>What should I do If I feel sick?</span>
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
-                      <p>
+                      <p style={{ fontWeight: "bold", color: "#001430" }}>
                         Lorem, ipsum dolor sit amet How do you Startup?
                         consectetur adipisicing elit. Accusamus ipsa error,
                         excepturi, obcaecati aliquid veniam blanditiis quas
@@ -109,14 +111,16 @@ const Faqs = () => {
 
                   <AccordionItem uuid="e">
                     <AccordionItemHeading>
-                      <AccordionItemButton>
+                      <AccordionItemButton
+                        style={{ backgroundColor: "#001430", color: "white" }}
+                      >
                         <span>
                           If a loved one gets sick, how can I care for them?
                         </span>
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
-                      <p>
+                      <p style={{ fontWeight: "bold", color: "#001430" }}>
                         Lorem, ipsum dolor sit amet How do you Startup?
                         consectetur adipisicing elit. Accusamus ipsa error,
                         excepturi, obcaecati aliquid veniam blanditiis quas
