@@ -66,7 +66,7 @@ const FinishingAssortment = () => {
 										<div className="col-lg-12">
 											<div className="about-img mb-30">
 												<img
-													src="/img/home-eight/home-eight-about2.jpg"
+													src="/img/home-eight/debossing.jpg"
 													alt="Image"
 												/>
 											</div>
@@ -74,7 +74,7 @@ const FinishingAssortment = () => {
 										<div className="col-lg-12">
 											<div className="about-img">
 												<img
-													src="/img/home-eight/home-eight-about3.jpg"
+													src="/img/home-eight/holographic-foiling.jpg"
 													alt="Image"
 												/>
 											</div>
@@ -87,14 +87,14 @@ const FinishingAssortment = () => {
 						<div className="col-lg-6">
 							<div className="row">
 								<div className="col-lg-6">
-									<div className="about-img-1"></div>
+									<div className="about-img-2"></div>
 								</div>
 								<div className="col-lg-6">
 									<div className="row">
 										<div className="col-lg-12">
 											<div className="about-img mb-30">
 												<img
-													src="/img/home-eight/home-eight-about2.jpg"
+													src="/img/home-eight/soft-touch-silk-lamination.jpg"
 													alt="Image"
 												/>
 											</div>
@@ -102,7 +102,7 @@ const FinishingAssortment = () => {
 										<div className="col-lg-12">
 											<div className="about-img">
 												<img
-													src="/img/home-eight/home-eight-about3.jpg"
+													src="/img/home-eight/aqueous-coating.jpg"
 													alt="Image"
 												/>
 											</div>

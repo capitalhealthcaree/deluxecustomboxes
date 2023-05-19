@@ -5695,13 +5695,19 @@ Facility Area Eight Style
 About Area Eight Style
 ======================================================*/
 .about-img-1 {
-  background-image: url(/img/home-eight/home-eight-about1.jpg);
+  background-image: url(/img/home-eight/foil-stamping.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
 }
-
+.about-img-2 {
+  background-image: url(/img/home-eight/embossing.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
 /*
 Services Area Eight Style
 ======================================================*/
