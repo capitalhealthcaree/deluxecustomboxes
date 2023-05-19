@@ -3,7 +3,7 @@ import React from "react";
 const PackagingProcedure = () => {
   return (
     <>
-      <div className="counter-area pb-5">
+      <div className="counter-area pt-1 pb-5">
         <div className="container">
           <div className="section-title">
             <h2>Our Packaging Procedure</h2>
