@@ -5,38 +5,39 @@ import Facilities from "../components/HomeFive/Facilities";
 import AboutUs from "../components/HomeEight/AboutUs";
 import PopularProducts from "../components/PopularProducts";
 import FinishingAssortment from "../components/Common/FinishingAssortment";
-import HowItWorks from "../components/HomeThree/HowItWorks";
 import Faqs from "../components/Common/Faqs";
 import NewsStyleTwo from "../components/Common/NewsStyleTwo";
 import PackagingProcedure from "../components/Common/PackagingProcedure";
 import Footer from "../components/_App/Footer";
+import AppointmentForm from "../components/HomeOne/AppointmentForm";
+
 // #002868 , #BF0A30
 const Index8 = () => {
-  return (
-    <>
-      <NavbarFour />
+	return (
+		<>
+			<NavbarFour />
 
-      <MainBanner />
+			<MainBanner />
 
-      <Facilities />
+			<Facilities />
 
-      <AboutUs />
+			<AboutUs />
 
-      <PopularProducts />
+			<PopularProducts />
 
-      <PackagingProcedure />
+			<PackagingProcedure />
 
-      <HowItWorks />
+			<AppointmentForm />
 
-      <FinishingAssortment />
+			<FinishingAssortment />
 
-      <Faqs />
+			<Faqs />
 
-      <NewsStyleTwo />
+			<NewsStyleTwo />
 
-      <Footer />
-    </>
-  );
+			<Footer />
+		</>
+	);
 };
 
 export default Index8;

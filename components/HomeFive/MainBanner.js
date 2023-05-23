@@ -11,13 +11,14 @@ const MainBanner = () => {
 					navigation={true}
 					modules={[Navigation]}
 					className="hero-slider-wrap"
-					style={{ height: "65vh" }}
+					style={{height: "65vh"}}
 				>
 					<SwiperSlide>
 						<div
 							className="slider-item"
 							style={{
 								backgroundImage: `url(/img/home-three/home-three-banner1.jpg)`,
+								height: "65vh",
 							}}
 						>
 							<div className="d-table">
