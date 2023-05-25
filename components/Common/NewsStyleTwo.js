@@ -4,7 +4,7 @@ import Link from "next/link";
 const NewsStyleTwo = () => {
   return (
     <>
-      <div className="blog-area pt-100 pb-70">
+      <div className="blog-area pt-5 pb-5">
         <div className="container">
           <div className="section-title">
             <span className="top-title">News</span>

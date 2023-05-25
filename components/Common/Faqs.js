@@ -10,7 +10,7 @@ import {
 const Faqs = () => {
   return (
     <>
-      <div className="faq-area bg-2 ptb-100">
+      <div className="faq-area bg-2 pt-5 pb-5">
         <div className="container">
           <div className="section-title">
             <span className="top-title">FAQ,s</span>

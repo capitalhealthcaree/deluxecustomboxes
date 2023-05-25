@@ -12,9 +12,12 @@ const AboutUs = () => {
 								<h2>Hospital Doctors Examine Patients So That They Diagnose</h2>
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-									do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-									Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-									maecenas accumsan lacus vel facilisis.
+									do eiusmod tempor incididunt Lorem ipsum dolor sit amet Lorem
+									ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum
+									dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit
+									amet ut labore et dolore magna aliqua. Quis ipsum suspendisse
+									ultrices gravida. Risus commodo viverra maecenas accumsan
+									lacus vel facilisis.
 								</p>
 
 								<p>
@@ -23,7 +26,14 @@ const AboutUs = () => {
 									Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
 									maecenas accumsan lacus vel facilisis Lorem ipsum dolor sit
 									amet, consectetur adipiscing elit, sed do sit amet,
-									consectetur.
+									consectetur.lacus vel facilisis Lorem ipsum dolor sit amet,
+									consectetur adipiscing elit, sed do sit amet,
+									consectetur.lacus vel facilisis Lorem ipsum dolor sit amet,
+									consectetur adipiscing elit, sed do sit amet,
+									consectetur.lacus vel facilisis Lorem ipsum dolor sit amet,
+									consectetur adipiscing elit, sed do sit amet,
+									consectetur.lacus vel facilisis Lorem ipsum dolor sit amet,
+									consectetur adipiscing elit, sed do sit amet, consectetur.
 								</p>
 
 								<div className="about-btn">
@@ -36,14 +46,11 @@ const AboutUs = () => {
 
 						<div className="col-lg-6">
 							{/* <div className="row"> */}
-								{/* <div className="col-lg-6"> */}
-									<img
-										src="/img/about/about-us.jpg"
-										alt="Image"
-									/>
-									{/* <div className="about-img-1"></div> */}
-								</div>
-								{/* <div className="col-lg-6">
+							{/* <div className="col-lg-6"> */}
+							<img src="/img/about/about-us.jpg" alt="Image" />
+							{/* <div className="about-img-1"></div> */}
+						</div>
+						{/* <div className="col-lg-6">
                   <div className="row">
                     <div className="col-lg-12">
                       <div className="about-img mb-30">
@@ -63,7 +70,7 @@ const AboutUs = () => {
                     </div>
                   </div>
                 </div> */}
-							{/* </div> */}
+						{/* </div> */}
 						{/* </div> */}
 					</div>
 				</div>
