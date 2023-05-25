@@ -17,7 +17,7 @@ const MainBanner = () => {
             <div
               className="slider-item"
               style={{
-                backgroundImage: `url(/img/home-three/home-three-banner1.jpg)`,
+                backgroundImage: `url(/img/home-three/home-three-banner2.jpg)`,
                 height: "65vh",
               }}
             >
@@ -52,7 +52,7 @@ const MainBanner = () => {
             <div
               className="slider-item"
               style={{
-                backgroundImage: `url(/img/home-three/home-three-banner2.jpg)`,
+                backgroundImage: `url(/img/home-three/home-three-banner1.jpg)`,
                 height: "65vh",
               }}
             >
