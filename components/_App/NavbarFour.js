@@ -86,6 +86,51 @@ const NavbarFour = () => {
 												<ul className="dropdown-menu">
 													<li className="nav-item">
 														<Link
+															href="/custom-cosmetics-boxes"
+															className={`nav-link ${
+																currentPath == "/custom-cosmetics-boxes" &&
+																"active"
+															}`}
+														>
+															Custom Cosmetics Boxes
+														</Link>
+													</li>
+													<li className="nav-item">
+														<Link
+															href="/custom-apparel-boxes"
+															className={`nav-link ${
+																currentPath == "/custom-apparel-boxes" &&
+																"active"
+															}`}
+														>
+															Custom Apparel Boxes
+														</Link>
+													</li>
+													<li className="nav-item">
+														<Link
+															href="/custom-bakery-boxes"
+															className={`nav-link ${
+																currentPath == "/custom-bakery-boxes" &&
+																"active"
+															}`}
+														>
+															Custom Bakery Boxes
+														</Link>
+													</li>
+													<li className="nav-item">
+														<Link
+															href="/custom-mailer-boxes"
+															className={`nav-link ${
+																currentPath == "/custom-mailer-boxes" &&
+																"active"
+															}`}
+														>
+															Custom Mailer Boxes
+														</Link>
+													</li>
+
+													<li className="nav-item">
+														<Link
 															href="/custom-retail-boxes"
 															className={`nav-link ${
 																currentPath == "/custom-retail-boxes" &&
@@ -109,30 +154,6 @@ const NavbarFour = () => {
 
 													<li className="nav-item">
 														<Link
-															href="/custom-cosmetics-boxes"
-															className={`nav-link ${
-																currentPath == "/custom-cosmetics-boxes" &&
-																"active"
-															}`}
-														>
-															Custom Cosmetics Boxes
-														</Link>
-													</li>
-
-													<li className="nav-item">
-														<Link
-															href="/custom-bakery-boxes"
-															className={`nav-link ${
-																currentPath == "/custom-bakery-boxes" &&
-																"active"
-															}`}
-														>
-															Custom Bakery Boxes
-														</Link>
-													</li>
-
-													<li className="nav-item">
-														<Link
 															href="/custom-vape-boxes"
 															className={`nav-link ${
 																currentPath == "/custom-vape-boxes" && "active"
@@ -151,17 +172,7 @@ const NavbarFour = () => {
 															Custom CBD Boxes
 														</Link>
 													</li>
-													<li className="nav-item">
-														<Link
-															href="/custom-apparel-boxes"
-															className={`nav-link ${
-																currentPath == "/custom-apparel-boxes" &&
-																"active"
-															}`}
-														>
-															Custom Apparel Boxes
-														</Link>
-													</li>
+
 													<li className="nav-item">
 														<Link
 															href="/custom-gift-boxes"
@@ -170,18 +181,6 @@ const NavbarFour = () => {
 															}`}
 														>
 															Custom Gift Boxes
-														</Link>
-													</li>
-
-													<li className="nav-item">
-														<Link
-															href="/custom-mailer-boxes"
-															className={`nav-link ${
-																currentPath == "/custom-mailer-boxes" &&
-																"active"
-															}`}
-														>
-															Custom Mailer Boxes
 														</Link>
 													</li>
 												</ul>
@@ -199,9 +198,19 @@ const NavbarFour = () => {
 												<ul className="dropdown-menu">
 													<li className="nav-item">
 														<Link
-															href="/cardboard-boxes/"
+															href="/corrugated-boxes"
 															className={`nav-link ${
-																currentPath == "/cardboard-boxes/" && "active"
+																currentPath == "/corrugated-boxes" && "active"
+															}`}
+														>
+															Corrugated Bboxes
+														</Link>
+													</li>
+													<li className="nav-item">
+														<Link
+															href="/cardboard-boxes"
+															className={`nav-link ${
+																currentPath == "/cardboard-boxes" && "active"
 															}`}
 														>
 															Cardboard Boxes
@@ -210,34 +219,22 @@ const NavbarFour = () => {
 
 													<li className="nav-item">
 														<Link
-															href="/corrugated-boxes/"
+															href="/kraft-boxes"
 															className={`nav-link ${
-																currentPath == "/corrugated-boxes/" && "active"
-															}`}
-														>
-															Corrugated Bboxes
-														</Link>
-													</li>
-
-													<li className="nav-item">
-														<Link
-															href="/rigid-boxes/"
-															className={`nav-link ${
-																currentPath == "/rigid-boxes/" && "active"
-															}`}
-														>
-															Rigid Boxes
-														</Link>
-													</li>
-
-													<li className="nav-item">
-														<Link
-															href="/kraft-boxes/"
-															className={`nav-link ${
-																currentPath == "/kraft-boxes/" && "active"
+																currentPath == "/kraft-boxes" && "active"
 															}`}
 														>
 															Kraft Boxes
+														</Link>
+													</li>
+													<li className="nav-item">
+														<Link
+															href="/rigid-boxes"
+															className={`nav-link ${
+																currentPath == "/rigid-boxes" && "active"
+															}`}
+														>
+															Rigid Boxes
 														</Link>
 													</li>
 												</ul>
@@ -254,6 +251,27 @@ const NavbarFour = () => {
 												<ul className="dropdown-menu">
 													<li className="nav-item">
 														<Link
+															href="/stickers-and-labels"
+															className={`nav-link ${
+																currentPath == "/stickers-and-labels" &&
+																"active"
+															}`}
+														>
+															Stickers and Labels
+														</Link>
+													</li>
+													<li className="nav-item">
+														<Link
+															href="/trays-and-sleeves"
+															className={`nav-link ${
+																currentPath == "/trays-and-sleeves" && "active"
+															}`}
+														>
+															Trays and Sleeves
+														</Link>
+													</li>
+													<li className="nav-item">
+														<Link
 															href="/display-boxes/"
 															className={`nav-link ${
 																currentPath == "/display-boxes/" && "active"
@@ -262,34 +280,11 @@ const NavbarFour = () => {
 															Display Boxes
 														</Link>
 													</li>
-
 													<li className="nav-item">
 														<Link
-															href="/gable-boxes/"
+															href="/pillow-boxes"
 															className={`nav-link ${
-																currentPath == "/gable-boxes/" && "active"
-															}`}
-														>
-															Gable Boxes
-														</Link>
-													</li>
-
-													<li className="nav-item">
-														<Link
-															href="/hang-tags/"
-															className={`nav-link ${
-																currentPath == "/hang-tags/" && "active"
-															}`}
-														>
-															Hang Tags
-														</Link>
-													</li>
-
-													<li className="nav-item">
-														<Link
-															href="/pillow-boxes/"
-															className={`nav-link ${
-																currentPath == "/pillow-boxes/" && "active"
+																currentPath == "/pillow-boxes" && "active"
 															}`}
 														>
 															Pillow Boxes
@@ -298,9 +293,20 @@ const NavbarFour = () => {
 
 													<li className="nav-item">
 														<Link
-															href="/mylar-bags/"
+															href="/gable-boxes"
 															className={`nav-link ${
-																currentPath == "/mylar-bags/" && "active"
+																currentPath == "/gable-boxes" && "active"
+															}`}
+														>
+															Gable Boxes
+														</Link>
+													</li>
+
+													<li className="nav-item">
+														<Link
+															href="/mylar-bags"
+															className={`nav-link ${
+																currentPath == "/mylar-bags" && "active"
 															}`}
 														>
 															Mylar Bags
@@ -320,35 +326,22 @@ const NavbarFour = () => {
 
 													<li className="nav-item">
 														<Link
-															href="/tuck-boxes/"
+															href="/tuck-boxes"
 															className={`nav-link ${
-																currentPath == "/tuck-boxes/" && "active"
+																currentPath == "/tuck-boxes" && "active"
 															}`}
 														>
 															Tuck Boxes
 														</Link>
 													</li>
-
 													<li className="nav-item">
 														<Link
-															href="/stickers-and-labels/"
+															href="/hang-tags"
 															className={`nav-link ${
-																currentPath == "/stickers-and-labels/" &&
-																"active"
+																currentPath == "/hang-tags" && "active"
 															}`}
 														>
-															Stickers & Labels
-														</Link>
-													</li>
-
-													<li className="nav-item">
-														<Link
-															href="/trays-and-sleeves/"
-															className={`nav-link ${
-																currentPath == "/trays-and-sleeves/" && "active"
-															}`}
-														>
-															Trays & Sleeves
+															Hang Tags
 														</Link>
 													</li>
 												</ul>
