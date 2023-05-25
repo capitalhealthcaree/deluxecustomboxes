@@ -175,24 +175,13 @@ const NavbarFour = () => {
 
 													<li className="nav-item">
 														<Link
-															href="/custom-stationery-boxes"
+															href="/custom-mailer-boxes"
 															className={`nav-link ${
-																currentPath == "/custom-stationery-boxes" &&
+																currentPath == "/custom-mailer-boxes" &&
 																"active"
 															}`}
 														>
-															Custom Stationery Boxes
-														</Link>
-													</li>
-													<li className="nav-item">
-														<Link
-															href="/custom-health-boxes"
-															className={`nav-link ${
-																currentPath == "/custom-health-boxes" &&
-																"active"
-															}`}
-														>
-															Custom Health Boxes
+															Custom Mailer Boxes
 														</Link>
 													</li>
 												</ul>
@@ -348,7 +337,7 @@ const NavbarFour = () => {
 																"active"
 															}`}
 														>
-															Stickers-and Labels
+															Stickers & Labels
 														</Link>
 													</li>
 
@@ -359,7 +348,7 @@ const NavbarFour = () => {
 																currentPath == "/trays-and-sleeves/" && "active"
 															}`}
 														>
-															Trays and Sleeves
+															Trays & Sleeves
 														</Link>
 													</li>
 												</ul>
