@@ -13,31 +13,31 @@ import AppointmentForm from "../components/HomeOne/AppointmentForm";
 
 // #002868 , #BF0A30
 const Index8 = () => {
-	return (
-		<>
-			<NavbarFour />
+  return (
+    <>
+      <NavbarFour />
 
-			<MainBanner />
+      <MainBanner />
 
-			<Facilities />
+      <Facilities />
 
-			<AboutUs />
+      <AboutUs />
 
-			<PopularProducts />
+      <PopularProducts />
 
-			<PackagingProcedure />
+      <PackagingProcedure />
 
-			<AppointmentForm />
+      <AppointmentForm />
 
-			<FinishingAssortment />
+      <FinishingAssortment />
 
-			<Faqs />
+      <Faqs />
 
-			<NewsStyleTwo />
+      <NewsStyleTwo />
 
-			<Footer />
-		</>
-	);
+      <Footer />
+    </>
+  );
 };
 
 export default Index8;
